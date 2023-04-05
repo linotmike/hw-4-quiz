@@ -1,6 +1,45 @@
-.hide {
-    display: none;
+* {
+  margin: 0%;
+
+  background-color: aqua;
 }
+.hide {
+  display: none;
+}
+
 h1 {
-    background-color: red;
+  text-align: center;
+  background-color: aqua;
+  color: black;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  width: 70%;
+}
+#questions{
+   background-color: palegoldenrod;
+
+
+}
+.timer {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  font-size: 20px;
+  padding-right: 2%;
+}
+.highscore {
+  display: flex;
+  font-size: 20px;
+  height: 20vh;
+  margin-top: 1%;
+  font-style: italic;
+  color: blueviolet;
+}
+.choices {
+  font-size: 20px;
+}
+.gameover {
+  font-size: 20px;
 }

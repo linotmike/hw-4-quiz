@@ -1,27 +1,41 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>code quiz</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="highscore"><p id="high">view highscore :</p></div>
+    <div class="timer"><p id="time">Time : </p></div>
     <div id="start-screen">
-   <h1>Coding Quiz</h1>
-<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, doloribus velit. Velit voluptatem veniam, aut libero cupiditate nostrum maxime itaque minima officiis commodi deleniti nesciunt in accusantium ullam, sint ipsa?</p>
-<button id="start-game">start</button>
+      <h1>Coding Quiz Challange</h1>
+      <p class="choices"></p>
+      <button id="start-game">start</button>
     </div>
     <div id="questions" class="hide">
-    <h2 id="question-title"></h2>
-        <div id="answers" class="answers"></div>
+      <h2 id="question-title"></h2>
+
+      <div id="answers" class="answers">
+        
+      </div>
+      <div id="feedback"></div>
     </div>
     <div id="end-screen" class="hide">
-        <h1>game over</h1>
-     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, doloribus velit. Velit voluptatem veniam, aut libero cupiditate nostrum maxime itaque minima officiis commodi deleniti nesciunt in accusantium ullam, sint ipsa?</p>
-         </div>
-    <script src="./assets/js/questions.js"></script>
+      <input id="highscore" type="text">
+      <h1>All done!</h1>
+      <button id="submit">submit</button>
+      <p class="choices"></p>
+      
+    </div>
+    <div id="leaderboard" class="hide">
+      <ol id="scores">
+        
+      </ol>
+    </div>
+    
     <script src="./assets/js/script.js"></script>
-</body>
+  </body>
 </html>
